@@ -11,8 +11,16 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #463758;
+  background: rgb(50, 46, 128);
+  background: linear-gradient(
+    90deg,
+    rgba(50, 46, 128, 1) 0%,
+    rgba(83, 68, 108, 0.9799107142857143) 69%,
+    rgba(105, 51, 108, 1) 100%
+  );
   padding: 1rem;
+  font-size: 33px;
+  word-spacing: 10px;
 }
 ul a {
   text-decoration: none;
@@ -20,7 +28,7 @@ ul a {
   -webkit-text-stroke: 0.5px black;
 }
 ul a:hover {
-  background-color: #5a4771;
+  background-color: #45436b;
 }
 li {
   float: left;
@@ -32,5 +40,88 @@ ul {
   overflow: hidden;
 }
 .active {
+  background-color: #9b8bb6;
+  padding: 5px;
+  border-radius: 8px;
+}
+.boton-vpn {
+  font-size: 28px;
+  border-radius: 10px;
+  padding: 10px;
   background-color: #5a4771;
+  color: white;
+}
+.boton-vpn:hover {
+  background-color: grey;
+}
+.boton-app {
+  font-size: 28px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #5a4771;
+  color: white;
+}
+.boton-app:hover {
+  background-color: grey;
+}
+
+.logo-vpn {
+  border: 1px solid white;
+}
+.card {
+  padding-right: 100px;
+  padding-top: 20px;
+}
+.card-img {
+  border: 3px solid white;
+}
+#hero {
+  background: rgb(154, 99, 172);
+  background: linear-gradient(
+    90deg,
+    rgba(154, 99, 172, 1) 0%,
+    rgba(83, 68, 108, 1) 69%,
+    rgba(67, 51, 108, 1) 100%
+  );
+  display: inline-flex;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.hero-info h1 {
+  box-shadow: 10px 5px;
+  display: inline-flex;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 40px;
+  width: 80;
+  min-width: 500;
+  font-weight: 800;
+  background-color: #9b8bb6;
+  color: black;
+}
+.hero-info li {
+  padding: 10px;
+  text-shadow: white;
+  font-size: 25px;
+  width: 80%;
+}
+.hero-info button {
+  margin-top: 50px;
+}
+#about {
+  padding-top: 100px;
+  background: rgb(154, 99, 172);
+  background: linear-gradient(
+    90deg,
+    rgba(154, 99, 172, 1) 0%,
+    rgba(83, 68, 108, 1) 69%,
+    rgba(67, 51, 108, 1) 100%
+  );
+  text-align: center;
+}
+.about-info p {
+  font-size: 25px;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
