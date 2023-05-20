@@ -75,6 +75,7 @@ ul {
 }
 .card-img {
   border: 3px solid white;
+  display: flex;
 }
 #hero {
   background: rgb(154, 99, 172);
@@ -84,9 +85,10 @@ ul {
     rgba(83, 68, 108, 1) 69%,
     rgba(67, 51, 108, 1) 100%
   );
-  display: inline-flex;
+  display: flex;
   padding-top: 15px;
   padding-left: 15px;
+  max-width: 100%;
 }
 .hero-info h1 {
   box-shadow: 10px 5px;
@@ -125,4 +127,116 @@ ul {
   text-align: center;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+/*ENTREGA 4*/
+#info {
+  padding: 70px 0;
+  max-width: 100%px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+  background: linear-gradient(
+    90deg,
+    rgba(154, 99, 172, 1) 0%,
+    rgba(83, 68, 108, 1) 69%,
+    rgba(67, 51, 108, 1) 100%
+  );
+}
+#info h2 {
+  font-size: 32px;
+  font-weight: 800;
+}
+.info-cards-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.info-card {
+  width: 300px;
+  height: 290px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: var(--secondary);
+  border-radius: 10px;
+  gap: 20px;
+}
+.info-card img {
+  width: 50px;
+}
+.info-card p {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--text-gray);
+}
+
+/*CONTACTO*/
+#contacto {
+  padding-left: 10px;
+  max-width: 100%;
+  justify-content: left;
+  align-items: left;
+  gap: 100px;
+  background: linear-gradient(
+    90deg,
+    rgba(154, 99, 172, 1) 0%,
+    rgba(83, 68, 108, 1) 69%,
+    rgba(67, 51, 108, 1) 100%
+  );
+}
+#contacto h2 {
+  text-align: left;
+}
+
+.info-contacto-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: start;
+}
+.contact-info2 {
+  padding-left: 20px;
+}
+img.desplazada {
+  position: relative;
+  top: -8em;
+  left: 10em;
+}
+
+.redes-icon {
+  padding-left: 5px;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: left;
+}
+.redes-icon a {
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+  margin-left: -8px;
+  justify-content: space-between;
+  font-size: 40px;
+}
+/*footer*/
+.footer {
+  text-align: center;
+  padding-top: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(154, 99, 172, 1) 0%,
+    rgba(83, 68, 108, 1) 69%,
+    rgba(67, 51, 108, 1) 100%
+  );
+}
+.escudo-icon {
+  font-size: 55px;
 }
